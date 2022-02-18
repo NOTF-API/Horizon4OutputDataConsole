@@ -8,7 +8,13 @@ a simple windows mfc application to watch the Forza Horizon4 Data Output data by
 # how to use
 Steps to configure Rich Presence:
 Download the latest release and extract it somewhere on your desktop.
-Run the command above (only need to run it once per installation of Forza Horizon 4).
+
+```CheckNetIsolation.exe LoopbackExempt -a -n=Microsoft.SunriseBaseGame_8wekyb3d8bbwe```
+
+*if your game is from UWP,you need to do this,maybe you don't have to do this by using steam*
+
+Run the command above(just use cmd) (only need to run it once per installation of Forza Horizon 4).
+
 In Forza Horizon 4, load into the game world, then go to Settings > HUD and Gameplay and scroll down to the bottom.
 + Set Data Out to On
 + Set Data Out IP Address to 127.0.0.1 (or whatever local IP address is running the application)
